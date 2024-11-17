@@ -7,16 +7,25 @@
 
 /* Base */
 body{
-    color: var(--color-primary-drak); 
+    color: var(--color-primary-drak);
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 ul{
     list-style-type: none;
 }
 
+address{
+    font-style: normal;
+}
+
 /* Button */
 .button{
     color: var(--color-brand-primary-light);
+    font-weight: 600;
     background-color: var(--color-brand);
     border: 2px solid var(--color-brand);
     border-radius: 8px;
@@ -31,14 +40,20 @@ ul{
 /* Link */
 .link{
     color: var(--color-brand-primary-light);
+    text-decoration: none;
 }
 .link:hover {
     color: var(--color-brand);
+    text-decoration: underline;
+    font-weight: 600;
 }
 
 /* Hero Section */
 .hero-title{
     color: var(--color-brand-primary-light);
+    text-align: center;
+    font-size: 128px;
+    font-weight: 900;
 }
 .hero-title .accent{
     color: var(--color-brand);
@@ -50,10 +65,62 @@ ul{
     background-color: var(--color-brand);
 }
 
+.advanteges-item {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/*fornat title*/
+
+.fornat-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.forman-text{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/*  */
+.section-title{
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 1.3;
+}
 .section-title .accent{
     color: var(--color-brand-drak);
 }
 
-.brand{
+.brand {
     color: var(--color-brand);
+    font-weight: 600;
+}
+.traditions-text {
+    color: var(--color-brand);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/*Povars-text*/
+
+.Povars-text{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/* Addres-Link */
+
+.address-link{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--color-brand-primary-light);
+}
+
+.address-link:hover {
+    text-decoration: none;
+    color: var(--color-brand);
+}
+.address-copy{
+    font-size: 14px;
 }
